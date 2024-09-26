@@ -68,6 +68,5 @@ exports.login = async (req, res) => {
 };
 
 exports.logout = (req, res) => {
-    // Implement your logout logic (e.g., token invalidation) here
     res.json({ msg: 'Logout successful' });
 };
